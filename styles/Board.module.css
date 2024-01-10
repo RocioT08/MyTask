@@ -1,0 +1,35 @@
+Home.module.css
+.container {
+  padding: 0xs 2rem;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  justify-content: start;
+  background: linear-gradient(to top, #e8cce0, #a8c5e2);  
+}
+
+.dashboard {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background: linear-gradient(to top, #e8cce0, #a8c5e2);  
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-gray-transparent {
+  background-color: rgba(211, 211, 211, 0.5);
+}
